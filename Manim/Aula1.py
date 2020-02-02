@@ -16,10 +16,23 @@ class Animation(Scene):
 
         de modo que
 
+        $$\\alpha_1 - \\beta_1 = \\beta_2 - \\alpha_2$$
+
         \\end{flushleft}
         """)
+
+        Tex3 = TextMobject("""
+        \\begin{flushleft}
+        Como $\\alpha_1 - \\beta_1 \\in W_1$ e $\\beta_2 - \\alpha_2 \\in W_2$, devemos ter $\\alpha_1 - \\beta_1 = \\beta_2 - \\alpha_2 = 0$, i.é, $\\alpha_1 = \\beta_1$ e $\\alpha_2 = \\beta_2$. Quando $W_1$ e $W_2$ forem disjuntos diremos que a soma $W = W_1 + W_2$ é direta, ou que $W$ é \\textbf{soma direta} de $W_1$ e $W_2$.
+
+        \\end{flushleft}
+        """)
+
         Tex2.set_width(2*(FRAME_X_RADIUS-1))
         Tex2.next_to(Tex1, BOTTOM, aligned_edge=LEFT)
-
         self.play(Write(Tex2))
+        self.clear()
+        Tex3.set_width(2*(FRAME_X_RADIUS-1))
+        Tex3.to_edge(UP)
+        self.play(Transform(Tex2, Tex3))
 
