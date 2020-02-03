@@ -1,2 +1,4 @@
 file 'C:/Users/erics/Desktop/Git-Repo/Linear-Algebra/Manim/media/videos/Aula1/480p15/partial_movie_files/Animation/00000.mp4'
 file 'C:/Users/erics/Desktop/Git-Repo/Linear-Algebra/Manim/media/videos/Aula1/480p15/partial_movie_files/Animation/00001.mp4'
+file 'C:/Users/erics/Desktop/Git-Repo/Linear-Algebra/Manim/media/videos/Aula1/480p15/partial_movie_files/Animation/00002.mp4'
+file 'C:/Users/erics/Desktop/Git-Repo/Linear-Algebra/Manim/media/videos/Aula1/480p15/partial_movie_files/Animation/00003.mp4'
